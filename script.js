@@ -1,10 +1,10 @@
 // Static data for States, Districts, and Mandals
 const data = {
-    "State1": {
+    "Andhra Pradesh": {
         "District1": ["Mandal1", "Mandal2"],
         "District2": ["Mandal3", "Mandal4"]
     },
-    "State2": {
+    "Telangana": {
         "District3": ["Mandal5", "Mandal6"],
         "District4": ["Mandal7", "Mandal8"]
     }
