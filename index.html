@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State, District, Mandal Selector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Select State, District, and Mandal</h1>
+    <div>
+        <label for="state">State:</label>
+        <select id="state" onchange="loadDistricts()">
+            <option value="">--Select State--</option>
+        </select>
+    </div>
+    <div>
+        <label for="district">District:</label>
+        <select id="district" onchange="loadMandals()">
+            <option value="">--Select District--</option>
+        </select>
+    </div>
+    <div>
+        <label for="mandal">Mandal:</label>
+        <select id="mandal">
+            <option value="">--Select Mandal--</option>
+        </select>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
